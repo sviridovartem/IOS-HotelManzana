@@ -9,14 +9,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--New customer-->
         <scene sceneID="qsj-Ia-rib">
             <objects>
                 <tableViewController id="B4g-GT-JFb" customClass="AddRegistrationTableViewController" customModule="HotelManzana" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="xRA-qI-8BV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="F2h-kJ-Ys4" userLabel="Guest info">
                                 <cells>
@@ -44,6 +45,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="WSL-q5-b89" secondAttribute="trailing" constant="16" id="wHL-ra-471"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1Gn-nk-xJk" userLabel="Last Name Table View Cell">
                                         <rect key="frame" x="0.0" y="79" width="375" height="44"/>
@@ -69,6 +71,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="mt6-Bc-UxK" secondAttribute="trailing" constant="16" id="z8V-3C-jUh"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="85V-av-aoF" userLabel="Email Table View Cell">
                                         <rect key="frame" x="0.0" y="123" width="375" height="44"/>
@@ -94,6 +97,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="FNx-07-Ab8" secondAttribute="bottom" id="rtG-za-pl2"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -122,6 +126,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="216" id="WvQ-5A-kCw" userLabel="Check In data">
                                         <rect key="frame" x="0.0" y="247" width="375" height="216"/>
@@ -132,6 +137,7 @@
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="swJ-mm-Y4r">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="216" id="llg-kC-fz1"/>
                                                     </constraints>
@@ -150,6 +156,7 @@
                                                 <constraint firstItem="swJ-mm-Y4r" firstAttribute="top" secondItem="xej-tJ-1cc" secondAttribute="top" id="jVx-AW-4w2"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="zXy-nt-5Ma" detailTextLabel="GeE-Rw-FHy" style="IBUITableViewCellStyleValue1" id="ZUr-oN-acP" userLabel="Check Out">
                                         <rect key="frame" x="0.0" y="463" width="375" height="44"/>
@@ -174,6 +181,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="216" id="Ilg-N0-A9k" userLabel="Check In data">
                                         <rect key="frame" x="0.0" y="507" width="375" height="216"/>
@@ -184,6 +192,7 @@
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bQQ-hs-GxH">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="216" id="22P-Tb-bf6"/>
                                                     </constraints>
@@ -202,6 +211,7 @@
                                                 <constraint firstItem="bQQ-hs-GxH" firstAttribute="leading" secondItem="SDg-X9-Kml" secondAttribute="leading" id="uNY-vs-xKI"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -238,6 +248,7 @@
                                                         <constraint firstAttribute="width" constant="94" id="HeB-jn-bmp"/>
                                                         <constraint firstAttribute="height" constant="29" id="Rnh-dg-Mpy"/>
                                                     </constraints>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <connections>
                                                         <action selector="stepperValueChanged:" destination="B4g-GT-JFb" eventType="valueChanged" id="BCh-cn-Pn8"/>
                                                     </connections>
@@ -255,6 +266,7 @@
                                                 <constraint firstItem="Ns6-15-h7b" firstAttribute="top" secondItem="WLA-e9-YGR" secondAttribute="top" constant="8" id="scU-S9-4s6"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3ga-gp-BfR" userLabel="Children Counter">
                                         <rect key="frame" x="0.0" y="803" width="375" height="44"/>
@@ -287,6 +299,7 @@
                                                         <constraint firstAttribute="width" constant="94" id="MRW-NT-BYI"/>
                                                         <constraint firstAttribute="height" constant="29" id="YDO-Wt-NNv"/>
                                                     </constraints>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <connections>
                                                         <action selector="stepperValueChanged:" destination="B4g-GT-JFb" eventType="valueChanged" id="f5a-x7-45Q"/>
                                                     </connections>
@@ -304,6 +317,7 @@
                                                 <constraint firstItem="3Yb-Si-b42" firstAttribute="leading" secondItem="3sk-h3-qdQ" secondAttribute="trailing" id="s0b-j2-nR7"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -360,24 +374,24 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection id="2kD-18-q3A" userLabel="Wifi">
+                            <tableViewSection id="2kD-18-q3A" userLabel="Type of room">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="9T5-Q1-B1e" detailTextLabel="cyg-Yc-ecX" style="IBUITableViewCellStyleValue1" id="ar2-hI-1KD" userLabel="Room type">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9T5-Q1-B1e" detailTextLabel="cyg-Yc-ecX" style="IBUITableViewCellStyleValue1" id="ar2-hI-1KD" userLabel="Room type">
                                         <rect key="frame" x="0.0" y="963" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ar2-hI-1KD" id="Rjo-x7-aM8">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="349" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Room Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9T5-Q1-B1e">
-                                                    <rect key="frame" x="16" y="11.999999999999998" width="86.333333333333329" height="20.333333333333332"/>
+                                                    <rect key="frame" x="15" y="11.999999999999998" width="86.333333333333329" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Not set" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyg-Yc-ecX">
-                                                    <rect key="frame" x="303" y="11.999999999999998" width="56" height="20.333333333333332"/>
+                                                    <rect key="frame" x="284" y="11.999999999999998" width="56" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -385,6 +399,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="IwI-3S-uR1" kind="show" identifier="SelectRoomType" id="iQG-tR-SNX"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -394,9 +411,12 @@
                             <outlet property="delegate" destination="B4g-GT-JFb" id="Y3e-v4-Ibm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="PP1-UD-Nnk">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PHY-kH-d8Q"/>
+                    <navigationItem key="navigationItem" title="New customer" largeTitleDisplayMode="never" id="PP1-UD-Nnk">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PHY-kH-d8Q">
+                            <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="CBu-dc-MXB">
+                            <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             <connections>
                                 <action selector="doneBarButtonTapped:" destination="B4g-GT-JFb" id="EgK-nR-awA"/>
                             </connections>
@@ -414,6 +434,7 @@
                         <outlet property="numberOfAdultsStepper" destination="ZuK-rw-X0G" id="Fmf-mK-gha"/>
                         <outlet property="numberOfChildrenLabel" destination="3sk-h3-qdQ" id="1B9-kt-dfV"/>
                         <outlet property="numberOfChildrenStepper" destination="3Yb-Si-b42" id="r8q-mX-W0W"/>
+                        <outlet property="roomTypeLabel" destination="cyg-Yc-ecX" id="mKY-dV-gmy"/>
                         <outlet property="wifiSwitch" destination="ns0-l9-eWj" id="S5a-9B-DLO"/>
                     </connections>
                 </tableViewController>
@@ -421,13 +442,68 @@
             </objects>
             <point key="canvasLocation" x="-316" y="-224.6305418719212"/>
         </scene>
+        <!--Type of room-->
+        <scene sceneID="YU3-nH-IaH">
+            <objects>
+                <tableViewController id="IwI-3S-uR1" customClass="SelectRoomTypeTableViewController" customModule="HotelManzana" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bKS-PD-S4D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RoomTypeCell" textLabel="zok-DX-krm" detailTextLabel="CxC-oV-9Xv" style="IBUITableViewCellStyleValue1" id="167-0a-hvA">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="167-0a-hvA" id="da7-dD-2vJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zok-DX-krm">
+                                            <rect key="frame" x="16.000000000000004" y="11.999999999999998" width="33.333333333333336" height="20.333333333333332"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CxC-oV-9Xv">
+                                            <rect key="frame" x="315" y="11.999999999999998" width="44" height="20.333333333333332"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IwI-3S-uR1" id="Blr-VT-5Ti"/>
+                            <outlet property="delegate" destination="IwI-3S-uR1" id="it6-gM-Csp"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Type of room" largeTitleDisplayMode="always" id="UBE-UQ-fb6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JFF-6Z-N7k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="-225"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="LRZ-UJ-XFH">
             <objects>
                 <navigationController id="grt-hp-9RQ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uMG-zI-REN">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="uMG-zI-REN">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="B4g-GT-JFb" kind="relationship" relationship="rootViewController" id="WqX-LW-rI8"/>

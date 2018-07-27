@@ -13,6 +13,7 @@
 		C77F3E94210A25A0004ACE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77F3E92210A25A0004ACE92 /* LaunchScreen.storyboard */; };
 		C77F3E9F210A28CE004ACE92 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F3E9E210A28CE004ACE92 /* Client.swift */; };
 		C77F3EA1210A2C03004ACE92 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F3EA0210A2C03004ACE92 /* AddRegistrationTableViewController.swift */; };
+		C77F3EA3210B0546004ACE92 /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F3EA2210B0546004ACE92 /* SelectRoomTypeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C77F3E95210A25A0004ACE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77F3E9E210A28CE004ACE92 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		C77F3EA0210A2C03004ACE92 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		C77F3EA2210B0546004ACE92 /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C77F3EA0210A2C03004ACE92 /* AddRegistrationTableViewController.swift */,
+				C77F3EA2210B0546004ACE92 /* SelectRoomTypeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77F3EA3210B0546004ACE92 /* SelectRoomTypeTableViewController.swift in Sources */,
 				C77F3EA1210A2C03004ACE92 /* AddRegistrationTableViewController.swift in Sources */,
 				C77F3E9F210A28CE004ACE92 /* Client.swift in Sources */,
 				C77F3E8A210A259F004ACE92 /* AppDelegate.swift in Sources */,
